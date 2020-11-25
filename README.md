@@ -68,3 +68,6 @@ After correcting the path of the trained model and dataset in `args` in the `tes
 
 ### Inference
 After correcting the path of the trained model and your custom dataset in `args` in the `inference.py` file, run it.
+
+### Tips
+This framework is not only suitable for the transfer of lighting attributes from planar objects to target objects, but also can be extended to other objects, and can be used for the transfer of any three-dimensional object attributes (such as shape transfer, pose transfer etc.).
