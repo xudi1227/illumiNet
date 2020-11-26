@@ -1,0 +1,4 @@
+visdom
+tqdm
+pillow
+numpy
