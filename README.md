@@ -26,7 +26,7 @@ conda create -n illuminet python=3.7
 source activate illuminet
 ```
 2. install pytorch in [https://pytorch.org/](https://pytorch.org/). Select your preferences and run the recommended install command.
-3. install others libs
+3. install others libs.
 ```
 pip install -r requirements.txt
 ```
