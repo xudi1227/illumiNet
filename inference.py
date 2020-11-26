@@ -206,6 +206,7 @@ with torch.no_grad():
         target_normal = target_normal.view(-1, 1, args.nnodeB, int(args.nfeatures/2))
         target_adj = target_adj.view(-1, 1, args.nnodeB, args.nnodeB)
         
+
         # Forward pass
         predited_bunny_light = decoder_B(Ga2b(encoder_A(light, normal,adj)),target_adj)
         predited_bunny_light = predited_bunny_light.view(-1, 1,args.nnodeB, int(args.nfeatures/2))
