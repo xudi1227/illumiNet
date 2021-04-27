@@ -1,7 +1,6 @@
 # Object-based-Illumination-Transfer
 
-This is the official code of the paper with id 2122 submitted to IEEEVR.
-
+This is the official code of the paper Object-based Illumination Transferring and Rendering for Applications of Mixed Reality
 
 # TODO
 - [x] inference
